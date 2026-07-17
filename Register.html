@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<div id="clock" style="
+text-align:center;
+font-size:30px;
+font-weight:bold;
+color:#4CAF50;
+padding:15px;">
+</div>
+<body class="regback">
+
+<header>
+    Registration Page
+</header>
+
+<p align="center">
+    Join Kids Learning Hub
+</p>
+
+<hr>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="login.html">Login</a>
+    <a href="admin.html">Admin</a>
+</nav>
+<hr>
+
+<h2 style="color:#2196F3;">Why Register?</h2>
+
+<ul>
+    <li>Access safe learning content</li>
+    <li>Track child learning topics</li>
+    <li>Stay updated</li>
+</ul>
+
+<h2>Kids Learning Image</h2>
+
+<hr>
+
+<h2>Registration Form</h2>
+
+<form style="background:white; padding:15px; width:60%; margin:auto;"
+onsubmit="return registerUser()">
+    Full Name:<br>
+    <input type="text" id="fullname"><br><br>
+
+    Email:<br>
+    <input type="email" id="email"><br><br>
+Password:<br>
+<input type="password" id="password"><br><br>
+    Child Age:<br>
+    <input type="number" id="age"><br><br>
+
+    Learning Category:<br>
+    <select>
+        <option>Alphabet</option>
+        <option>Numbers</option>
+        <option>colors</option>
+        <option>Stories</option>
+		<option>funny songs</option>
+    </select><br><br>
+
+    Feedback:<br>
+    <textarea rows="4"></textarea><br><br>
+
+   <input
+type="submit"
+value="Register">
+</form>
+
+<hr>
+
+<footer>
+    © 2026 Kids Learning Hub
+</footer>
+<script src="../JS/script.js"></script>
+</body>
+</html>
